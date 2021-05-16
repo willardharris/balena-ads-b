@@ -1,6 +1,14 @@
-name: "ADS-B Flight Tracker"
-type: "sw.application"
-description: "Track the flight traffic over your head with a Raspberry Pi running balena and a cheap RTL-SDR USB dongle."
+name: ADS-B Flight Tracker
+type: sw.application
+description: >-
+  Track the flight traffic over your head with a Raspberry Pi running balena and a cheap RTL-SDR USB dongle.
+fleetcta: Build an ADS-B Flight Tracker
+post-provisioning: >-
+  ## Usage instructions
+  
+  Once your device joins the fleet, you'll need to specify some settings and configure the various flight tracking services.
+
+  Please refer to the project's [documentation](https://github.com/ketil/balena-ads-b) for detailed instructions about the configuration.
 assets:
   repository:
     type: "blob.asset"
