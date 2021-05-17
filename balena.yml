@@ -1,13 +1,15 @@
 name: "ADS-B Flight Tracker"
 type: "sw.application"
 description: "Track the flight traffic over your head with a Raspberry Pi running balena and a cheap RTL-SDR USB dongle."
-fleetcta: ""
+fleetcta: "Don't click! See instructions below."
 post-provisioning: >-
   ## Usage instructions
 
-  **Important:** As this application requires some manual configuration, it's not currently possible to deploy it using the blue button above. Use the **Fork this app**-button instead.
+  **Important:** As this application requires some manual configuration, it's not currently possible to deploy it using the blue button above. 
 
-  Please refer to the project's [documentation](https://github.com/ketil/balena-ads-b) for detailed instructions about the configuration.
+  Use the **Fork this app**-button to the right instead.
+
+  Please refer to the project's [documentation](https://github.com/ketil/balena-ads-b) for detailed instructions about the configuration of the app.
 assets:
   repository:
     type: "blob.asset"
