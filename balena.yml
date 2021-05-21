@@ -1,5 +1,6 @@
 name: "ADS-B Flight Tracker"
 type: "sw.application"
+joinable: false
 description: "Track the flight traffic over your head with a Raspberry Pi running balena and a cheap RTL-SDR USB dongle."
 fleetcta: "Don't click! See instructions below."
 post-provisioning: >-
