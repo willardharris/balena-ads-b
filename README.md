@@ -226,7 +226,7 @@ If you have previously set up a RadarBox receiver and want to port it to Balena,
 If you have not previously set up a RadarBox receiver that you want to reuse, do the following steps:
 
  1. Register a new [RadarBox account](https://www.radarbox.com/register). Make sure to activate it using the email that's sent to you.
- 2. Head back to your device's page on the Balena dashboard.
+ 2. Head back to your device's page on the balena dashboard.
  3. Inside the *Terminal* section, click *Select a target*, then *radarbox*, and finally *Start terminal session*.
  4. This will open a terminal which lets you interact directly with your RadarBox container.
  5. At the prompt, enter `/showkey.sh`. Your RadarBox key will be displayed, and will look similar to this: `546b69e69b4671a742b82b10c674cdc1`.
@@ -240,13 +240,13 @@ If you have not previously set up a RadarBox receiver that you want to reuse, do
 ADSB Exchange requires very little in the way of setup. 
 All that you need to do is name the feeder, generate a UUID, and claim your IP on the ADSB Exchange site.
 
-1. Head over to your device's Summary page at balena.io. Inside the Terminal section, click Select a target, then adsbexchange-feed, and finally Start terminal session. This will open a terminal which lets you interact directly with your ADSB Exchange container.
+1. Head back to your device's page on the balena dashboard. Inside the *Terminal* section, click *Select a target*, then *adsb-exchange*, and finally *Start terminal session*. This will open a terminal which lets you interact directly with your ADSB Exchange container.
 2. At the prompt, type `/usr/local/share/adsbexchange-stats/create-uuid.sh` followed by return. Your ADSB-Exchange UUID is displayed. Note it down.
 3. At the same prompt, type `/create-sitename.sh` followed by return. Enter a friendly name for your feeder as per the instructions on screen (e.g. your location). Hit return and note down the result.
 4. Click on the *Device Variables*-button – *Vx*. Add a variable named `ADSB_EXCHANGE_UUID` with the value from step 2.
 5. Click on the *Device Variables*-button – *Vx*. Add a variable named `ADSB_EXCHANGE_SITENAME` with the value from step 2.
-6. Restart the *adsbexchange-feed* and *adsbexchange-mlat* applications under *Services* by clicking the "cycle" icon next to the service names.
-7. Next, wait a minute or two for the services to restart and head over to ADSB Exchange's 
+6. Restart the *adsb-exchange* application under *Services* by clicking the "cycle" icon next to the service names.
+7. Next, wait a minute or two for the service to restart and head over to ADSB Exchange's 
 [Feeder Status](https://www.adsbexchange.com/myip/) page from a PC on the same network as the feeder. Verify that your feeder is shown as registered and that ADSB Exchange is receiving your feed and mlat data. You can also verify your feeder's performance at the [ADSB Exchange Feeder Map](https://map.adsbexchange.com/mlat-map/) by searching for you sitename.
 
 ## Part 9 – Exploring flight traffic locally on your device

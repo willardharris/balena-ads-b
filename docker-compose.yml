@@ -194,6 +194,23 @@ services:
     volumes:
       - 'radarbox:/sys/class/thermal:ro'
       - 'radarbox:/var/radarbox/thermal'
+  adsb-exchange:
+    depends_on:
+      - dump1090-fa
+    build:
+      context: ./adsb-exchange
+    image: adsb-exchange
+    restart: always
+    environment:
+      ADSB_EXCHANGE_SITENAME: ''
+      ADSB_EXCHANGE_UUID: ''
+      LAT: ''
+      LON: ''
+      ALT: ''
+    expose:
+      - '30154'
+      - '30157'
+      - '31003'
 # Optional: Uncomment to enable custom mlat server.
 #  mlat-client:
 #    depends_on:
@@ -206,27 +223,6 @@ services:
 #      - LON=
 #      - ALT=
 #      - MLAT_CLIENT_USER=
-
-  adsbexchange-feed:
-    depends_on:
-      - dump1090-fa
-    build: ./adsbexchange-feed
-    image: adsbexchange-feed
-    restart: always
-
-  adsbexchange-mlat:
-    depends_on:
-      - dump1090-fa
-    build: ./adsbexchange-mlat
-    image: adsbexchange-mlat
-    restart: always
-    environment:
-      - LAT=
-      - LON=
-      - ALT=
-      - RECEIVER_HOST=dump1090-fa
-      - RECEIVER_PORT=30005
-      - ADSBEXCHANGE_RECEIVER_NAME=
 
 
     
