@@ -236,9 +236,7 @@ If you have not previously set up a RadarBox receiver that you want to reuse, do
  9. Next, you might be asked to enter your feeder's location and altitude *above the ground.* Enter the same values that you entered in the `LAT` and `LON` variables earlier. When asked for the antenna's altitude, specify it i meters (or feet) *above the ground* – NOT above sea level as done previously. If you are not asked to enter this information, you can do it manually by clicking the *Edit* link under your receiver's ID on the left-hand side of the screen. 
  10. Finally, verify that RadarBox is receiving data from your receiver. You'll find your receiver by clicking on the *Account* menu at [radarbox.com](https://www.radarbox.com) , under the *Stations* accordion. 
 
-## Part 8 - Configure ADSB Exchange Feeder and MLAT
-ADSB Exchange requires very little in the way of setup. 
-All that you need to do is name the feeder, generate a UUID, and claim your IP on the ADSB Exchange site.
+## Part 8 - Configure ADSB Exchange
 
 1. Head back to your device's page on the balena dashboard. Inside the *Terminal* section, click *Select a target*, then *adsb-exchange*, and finally *Start terminal session*. This will open a terminal which lets you interact directly with your ADSB Exchange container.
 2. At the prompt, type `/usr/local/share/adsbexchange-stats/create-uuid.sh` followed by return. Your ADSB-Exchange UUID is displayed. Note it down.
