@@ -8,7 +8,7 @@ Contribute to the flight tracking community! Feed your local ADS-B data from an 
 
 🚨&nbsp;Got stuck? [Create a post](https://forums.balena.io/t/the-balena-ads-b-thread/272290) in our forum thread or [raise an issue](https://github.com/ketilmo/balena-ads-b/issues).
 
-📺 &nbsp;Want to know more about the project? [Watch this video](https://youtu.be/-8RgToapBoQ).
+📺 &nbsp;Want to know more about the project? Watch the [video from balena IoT Happy Hour in March 2021](https://youtu.be/-8RgToapBoQ), and the [video from balena Hackathon in October 2021](https://youtu.be/aHlNRT1iFl0).
 
 **Supported devices**
 <table>
