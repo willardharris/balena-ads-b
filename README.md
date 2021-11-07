@@ -69,7 +69,7 @@ or
 
  1. [Create a free balena account](https://dashboard.balena-cloud.com/signup). During the process, you will be asked to upload your public SSH key. If you don't have a public SSH key yet, you can [create one](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
  2. Sign in to Balena and head over to the [*Fleets*](https://dashboard.balena-cloud.com/fleets) panel.
- 3. Create a fleet with the name of your choice, for the device type of your choice. In the dialog that appears, make sure to pick a *Default Device Type* that matches your device. If you want to use WiFi (and your device supports it), specify the SSID and password here, too. (If your device comes up without an active connection to the Internet, the `wifi-connect` container will create a network with a captive portal to connect to a local WiFi network. The SSID for the created hotspot is `balenaWiFi`, and the password is`balenaWiFi`. When connected, visit `http://192.168.42.1:8181/` in your web browser to setup the connection.
+ 3. Create a fleet with the name of your choice, for the device type of your choice. Take note of the fleet name, you will need it later. In the dialog that appears, make sure to pick a *Default Device Type* that matches your device. If you want to use WiFi (and your device supports it), specify the SSID and password here, too. (If your device comes up without an active connection to the Internet, the `wifi-connect` container will create a network with a captive portal to connect to a local WiFi network. The SSID for the created hotspot is `balenaWiFi`, and the password is`balenaWiFi`. When connected, visit `http://192.168.42.1:8181/` in your web browser to setup the connection.
  4. balena will create an SD card image for you, and this will start downloading automatically after a few seconds. Flash the image to an SD-card using balena's dedicated tool [balenaEtcher](https://www.balena.io/etcher/).
  5. Insert the SD card in your receiver, and connect it to your cabled network (unless you plan to use WiFi only, and configured that in step 3). 
  6. Power up the receiver.
@@ -78,10 +78,12 @@ or
  9. Next, we'll configure the receiver with its geographic location. Unless you happen to know this by heart, you can use [Google Maps](https://maps.google.com) to find it. When you click on your desired location on the map, the corresponding coordinates should appear. We are looking for the decimal coordinates, which should look similar to this: 60.395429, 5.325127.
  10. Back in the balena console, verify that you have opened up the view for your desired device. Click on the *Device Variables*-button. Add the following two variables: `LAT` *(Receiver Latitude)*, e.g. with a value such as `60.12345` and `LON` *(Receiver Longitude)*, e.g. with a value such as `4.12345`.
  11. Now, you're going to enter the receiver's altitude in *meters* above sea level in a new variable named `ALT`. If you don't know the altitude, you can find it using [one of several online services](https://www.maps.ie/coordinates.html). If your antenna is mounted above ground level, remember to add the approximate number of corresponding meters.
- 12. Almost there! Next, we are going to push this code to your device through the balena cloud. Head into your terminal and clone this repository to your local computer: `git clone git@github.com:ketilmo/balena-ads-b.git`
- 13. Add a balena remote to your newly created local Git repo. You'll find the exact command you need for this at the fleet page in your balena dashboard. It should look something like this: `git remote add balena your_username@git.balena-cloud.com:your_username/your_fleet_name.git`
- 14. Push the code to Balena's servers by typing `git push balena master`. 
- 15. Now, wait while the Docker containers build on balena's servers. If the process is successful, you will see a beautiful piece of ASCII art depicting a unicorn:
+ 12. Almost there! Next, we are going to push this code to your device through the balena cloud. We'll do that using the [balena CLI](https://github.com/balena-io/balena-cli). Follow the [official instructions](https://github.com/balena-io/balena-cli/blob/master/INSTALL.md) to download and install the CLI for your platform of choice.
+ 14. Head into your terminal and login to balena with the following command: `balena login`. Then follow the instructions on the screen.
+ 15. Next, clone the balena-ads-b repository to your local computer: `git clone git@github.com:ketilmo/balena-ads-b.git`. If you want to make changes to the repo, you can also fork it.
+ 16. Head into the folder of the newly cloned repo by typing `cd balena-ads-b`.
+ 17. Do your remember your fleet name from earlier? Good. Now, we are ready to push the applications to balena's servers by typing `balena push YOUR–FLEET–NAME–HERE`.
+ 18. Now, wait while the Docker containers build on balena's servers. If the process is successful, you will see a beautiful piece of ASCII art depicting a unicorn right in you terminal window:
 <pre>
 			    \
 			     \
