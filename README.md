@@ -18,6 +18,8 @@ Contribute to the flight tracking community! Feed your local ADS-B data from an 
 
 📨&nbsp; [Reach out directly](https://ketil.mo.land/contact)
 
+🗞&nbsp; [Read past newsletters](https://buttondown.email/balena-ads-b/archive/)
+
 ## Supported devices
 <table>
 <tr><td>
