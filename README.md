@@ -4,7 +4,7 @@
 
 Contribute to the flight tracking community! Feed your local ADS-B data from an [RTL-SDR](https://www.rtl-sdr.com/) USB dongle and a supported device (see below) running balenaOS to the tracking services [FlightAware](https://flightaware.com/), [Flightradar24](https://www.flightradar24.com/), [Plane Finder](https://planefinder.net/), [OpenSky Network](https://opensky-network.org/), [AirNav RadarBox](https://www.radarbox.com/) and [ADSB Exchange](https://adsbexchange.com). In return, you will receive free premium accounts worth several hundred dollars/year!
 
-👉🏻&nbsp;<a href="https://buttondown.email/balena-ads-b"> Subscribe to our newsletter</a>&nbsp;👈🏻 to stay updated on the latest development of balena ADS-B Flight Tracker.
+👉🏻&nbsp;<a href="https://buttondown.email/balena-ads-b"> Subscribe to our newsletter</a>&nbsp;👈🏻&nbsp; to stay updated on the latest development of balena ADS-B Flight Tracker.
 
 🚨&nbsp;Got stuck? [Create a post](https://forums.balena.io/t/the-balena-ads-b-thread/272290) in our forum thread or [raise an issue](https://github.com/ketilmo/balena-ads-b/issues).
 
@@ -48,7 +48,7 @@ Thanks to [compujuckel](https://github.com/compujuckel/), [Glenn Stewart](https:
 
 Thanks to [garethhowell](https://github.com/garethhowell) for implementing ADSB Exchange support.
 
-Thanks to [rmorillo24](https://github.com/rmorillo24/) for verifying balenaFin compability and to [adaptive](https://github.com/adaptive/) for confirming Raspberry Pi 400 compability!
+Thanks to [rmorillo24](https://github.com/rmorillo24/) for verifying balenaFin compability, to [adaptive](https://github.com/adaptive/) for confirming Raspberry Pi 400 compability, and to [alanb128](https://github.com/alanb128) for confirming that the UAT implementation works in the US.
 
 ## Part 1 – Build the receiver
 
