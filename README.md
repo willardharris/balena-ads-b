@@ -4,13 +4,21 @@
 
 Contribute to the flight tracking community! Feed your local ADS-B data from an [RTL-SDR](https://www.rtl-sdr.com/) USB dongle and a supported device (see below) running balenaOS to the tracking services [FlightAware](https://flightaware.com/), [Flightradar24](https://www.flightradar24.com/), [Plane Finder](https://planefinder.net/), [OpenSky Network](https://opensky-network.org/), [AirNav RadarBox](https://www.radarbox.com/) and [ADSB Exchange](https://adsbexchange.com). In return, you will receive free premium accounts worth several hundred dollars/year!
 
+## Stay in the loop
+
 👉🏻&nbsp;<a href="https://buttondown.email/balena-ads-b"> Subscribe to our newsletter</a>&nbsp;👈🏻&nbsp; to stay updated on the latest development of balena ADS-B Flight Tracker.
 
-🚨&nbsp;Got stuck? [Create a post](https://forums.balena.io/t/the-balena-ads-b-thread/272290) in our forum thread or [raise an issue](https://github.com/ketilmo/balena-ads-b/issues).
+## Got stuck? Get help
 
-📺 &nbsp;Want to know more about the project? Watch the [video from balena IoT Happy Hour in March 2021](https://youtu.be/-8RgToapBoQ), and the [video from balena Hackathon in October 2021](https://youtu.be/aHlNRT1iFl0).
+🚨&nbsp; [Raise an issue](https://github.com/ketilmo/balena-ads-b/issues) on GitHub
 
-**Supported devices**
+💬&nbsp; [Create a post](https://forums.balena.io/t/the-balena-ads-b-thread/272290) in our forum thread
+
+📺&nbsp; Watch the videos from the [balena IoT Happy Hour in March 2021](https://youtu.be/-8RgToapBoQ) and from [balena Hackathon in October 2021](https://youtu.be/aHlNRT1iFl0)
+
+📨&nbsp; [Reach out directly](https://ketil.mo.land/contact)
+
+## Supported devices
 <table>
 <tr><td>
 <img height="24px" src="https://files.balena-cloud.com/images/fincm3/2.58.3%2Brev1.prod/logo.svg" alt="fincm3" style="max-width: 100%; margin: 0px 4px;"></td><td> balenaFin</td>
@@ -35,7 +43,11 @@ Contribute to the flight tracking community! Feed your local ADS-B data from an 
 </tr>
 </table>
 
-This project is inspired by and has borrowed code from the following repos and forum threads:  
+## Credits
+
+The balena-ads-b project is created and maintained by [Ketil Moland Olsen](https://github.com/ketilmo/balena-ads-b/edit/master/README.md).
+
+It's inspired by and has borrowed code from the following repos and forum threads:  
 
  - https://github.com/compujuckel/adsb-docker
  - https://bitbucket.org/inodes/resin-docker-rtlsdr
