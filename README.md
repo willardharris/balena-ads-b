@@ -62,6 +62,28 @@ Thanks to [garethhowell](https://github.com/garethhowell) for implementing ADSB 
 
 Thanks to [rmorillo24](https://github.com/rmorillo24/) for verifying balenaFin compability, to [adaptive](https://github.com/adaptive/) for confirming Raspberry Pi 400 compability, and to [alanb128](https://github.com/alanb128) for confirming that the UAT implementation works in the US.
 
+## Table of Contents
+- [Part 1 – Build the receiver](#part-1--build-the-receiver)
+- [Part 2 – Setup balena and configure the device](#part-2--setup-balena-and-configure-the-device)
+- [Part 3 – Configure FlightAware](#part-3--configure-flightaware)
+  * [Alternative A: Port an existing FlightAware receiver](#alternative-a-port-an-existing-flightaware-receiver)
+  * [Alternative B: Setup a new FlightAware receiver](#alternative-b-setup-a-new-flightaware-receiver)
+- [Part 4 – Configure Flightradar24](#part-4--configure-flightradar24)
+  * [Alternative A: Port an existing Flightradar24 receiver](#alternative-a-port-an-existing-flightradar24-receiver)
+  * [Alternative B: Setup a new Flightradar24 receiver](#alternative-b-setup-a-new-flightradar24-receiver)
+- [Part 5 – Configure Plane Finder](#part-5--configure-plane-finder)
+  * [Alternative A: Port an existing Plane Finder receiver](#alternative-a-port-an-existing-plane-finder-receiver)
+  * [Alternative B: Setup a new Plane Finder receiver](#alternative-b-setup-a-new-plane-finder-receiver)
+- [Part 6 – Configure OpenSky Network](#part-6--configure-opensky-network)
+  * [Alternative A: Port an existing OpenSky Network receiver](#alternative-a-port-an-existing-opensky-network-receiver)
+  * [Alternative B: Setup a new OpenSky Network receiver](#alternative-b-setup-a-new-opensky-network-receiver)
+- [Part 7 – Configure RadarBox](#part-7--configure-radarbox)
+  * [Alternative A: Port an existing RadarBox receiver](#alternative-a-port-an-existing-radarbox-receiver)
+  * [Alternative B: Setup a new RadarBox receiver](#alternative-b-setup-a-new-radarbox-receiver)
+- [Part 8 - Configure ADSB Exchange](#part-8---configure-adsb-exchange)
+- [Part 9 – Exploring flight traffic locally on your device](#part-9--exploring-flight-traffic-locally-on-your-device)
+- [Part 10 - (Optional) Add a digital display](#part-10---optional-add-a-digital-display)
+
 ## Part 1 – Build the receiver
 
 We'll build the receiver using the parts that are outlined on the Flightradar24, FlightAware, and RadarBox websites: 
