@@ -60,7 +60,7 @@ It's inspired by and has borrowed code from the following repos and forum thread
 
 Thanks to [compujuckel](https://github.com/compujuckel/), [Glenn Stewart](https://bitbucket.org/inodes/), [wercsy](https://github.com/wercsy/), [mikenye](https://github.com/mikenye/), [abcd567a](https://github.com/abcd567a) and [marcelstoer](https://github.com/marcelstoer) for sharing!
 
-Thanks to [garethhowell](https://github.com/garethhowell) for implementing ADSB Exchange support.
+Thanks to [garethhowell](https://github.com/garethhowell) for implementing the initial ADSB Exchange support, and to [wiedehopf](https://github.com/wiedehopf/) for improving it.
 
 Thanks to [rmorillo24](https://github.com/rmorillo24/) for verifying balenaFin compability, to [adaptive](https://github.com/adaptive/) for confirming Raspberry Pi 400 compability, and to [alanb128](https://github.com/alanb128) for confirming that the UAT implementation works in the US.
 
