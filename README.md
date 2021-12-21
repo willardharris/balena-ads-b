@@ -45,11 +45,6 @@ Contribute to the flight tracking community! Feed your local ADS-B data from an 
 </tr>
 </table>
 
-## Contributors
-<a href="https://github.com/ketilmo/balena-ads-b/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ketilmo/balena-ads-b" />
-</a>
-
 ## Credits
 
 The balena-ads-b project is created and maintained by [Ketil Moland Olsen](https://github.com/ketilmo/).
@@ -70,6 +65,11 @@ Thanks to [garethhowell](https://github.com/garethhowell) for implementing the i
 Thanks to [rmorillo24](https://github.com/rmorillo24/) for verifying balenaFin compability, to [adaptive](https://github.com/adaptive/) for confirming Raspberry Pi 400 compability, and to [alanb128](https://github.com/alanb128) for confirming that the UAT implementation works in the US.
 
 Software packages that are downloaded, installed, and configured by the balena-ads-b script are disclosed in [CREDITS.md](https://github.com/ketilmo/balena-ads-b/blob/master/CREDITS.md).
+
+## Contributors
+<a href="https://github.com/ketilmo/balena-ads-b/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ketilmo/balena-ads-b" />
+</a>
 
 ## Table of Contents
 - [Part 1 – Build the receiver](#part-1--build-the-receiver)
