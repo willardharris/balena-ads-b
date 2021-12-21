@@ -45,6 +45,11 @@ Contribute to the flight tracking community! Feed your local ADS-B data from an 
 </tr>
 </table>
 
+## Contributors
+<a href="https://github.com/ketilmo/balena-ads-b/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ketilmo/balena-ads-b" />
+</a>
+
 ## Credits
 
 The balena-ads-b project is created and maintained by [Ketil Moland Olsen](https://github.com/ketilmo/balena-ads-b/edit/master/README.md).
