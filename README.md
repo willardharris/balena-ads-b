@@ -92,6 +92,7 @@ Software packages that are downloaded, installed, and configured by the balena-a
 - [Part 8 - Configure ADSB Exchange](#part-8---configure-adsb-exchange)
 - [Part 9 – Exploring flight traffic locally on your device](#part-9--exploring-flight-traffic-locally-on-your-device)
 - [Part 10 - (Optional) Add a digital display](#part-10---optional-add-a-digital-display)
+- [Part 11 – Updating to the latest version](#part-11-–-updating-to-the-latest-version)
 
 ## Part 1 – Build the receiver
 
@@ -310,5 +311,12 @@ Less visual than the two other options, Flightradar24's status page gives you hi
 
 ## Part 10 - (Optional) Add a digital display
 balena also produces a project that can be easily configured to display a webpage in kiosk mode on a digital display called balenaDash. By dropping that project into this one, we can automatically display a feeder page directly from the Pi. Ensure you have cloned this repository recursively (`git clone --recursive {{repository URL}}`). We can then set a `LAUNCH_URL` device variable configured to connect to `http://{{YOURIP or YOURSERVICENAME}}:YOURSERVICEPORT` (where the service/port are one of the frontends above, like `http://planefinder:30053`) and that will automatically be displayed on the attached display. The balenaDash service can be configured locally by accessing the webserver on port 8081.
+
+## Part 11 – Updating to the latest version
+Updating to the latest version is trivial. If you installed balena-ads-b using the blue Deploy with balena-button, you can click it again and overwrite your current application. All settings will be preserved. For convenience, the button is right here:
+
+[![Deploy with button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/ketilmo/balena-ads-b&defaultDeviceType=raspberrypi4-64)
+
+If you used the git clone method, pull the changes from the master branch and push the update to your application with the balena CLI. For complete instructions, have a look at [Part 2 – Setup balena and configure the device](#part-2--setup-balena-and-configure-the-device).
 
 Enjoy!
