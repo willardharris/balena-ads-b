@@ -89,10 +89,10 @@ Software packages that are downloaded, installed, and configured by the balena-a
 - [Part 7 – Configure RadarBox](#part-7--configure-radarbox)
   * [Alternative A: Port an existing RadarBox receiver](#alternative-a-port-an-existing-radarbox-receiver)
   * [Alternative B: Setup a new RadarBox receiver](#alternative-b-setup-a-new-radarbox-receiver)
-- [Part 8 - Configure ADSB Exchange](#part-8---configure-adsb-exchange)
+- [Part 8 – Configure ADSB Exchange](#part-8--configure-adsb-exchange)
 - [Part 9 – Exploring flight traffic locally on your device](#part-9--exploring-flight-traffic-locally-on-your-device)
-- [Part 10 - (Optional) Add a digital display](#part-10---optional-add-a-digital-display)
-- [Part 11 – Updating to the latest version](#part-11-–-updating-to-the-latest-version)
+- [Part 10 – (Optional) Add a digital display](#part-10--optional-add-a-digital-display)
+- [Part 11 – Updating to the latest version](#part-11--updating-to-the-latest-version)
 
 ## Part 1 – Build the receiver
 
