@@ -64,6 +64,8 @@ Thanks to [garethhowell](https://github.com/garethhowell) for implementing the i
 
 Thanks to [rmorillo24](https://github.com/rmorillo24/) for verifying balenaFin compability, to [adaptive](https://github.com/adaptive/) for confirming Raspberry Pi 400 compability, and to [alanb128](https://github.com/alanb128) for confirming that the UAT implementation works in the US.
 
+Thanks to [schubydoo](https://github.com/schubydoo) for assistance with keeping the repository up to date.
+
 Software packages that are downloaded, installed, and configured by the balena-ads-b script are disclosed in [CREDITS.md](https://github.com/ketilmo/balena-ads-b/blob/master/CREDITS.md).
 
 ## Contributors
