@@ -25,27 +25,29 @@ Contribute to the flight tracking community! Feed your local ADS-B data from an 
 # Supported devices
 <table>
 <tr><td>
-<img height="24px" src="https://files.balena-cloud.com/images/fincm3/2.58.3%2Brev1.prod/logo.svg" alt="fincm3" style="max-width: 100%; margin: 0px 4px;"></td><td> balenaFin</td>
+<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/fincm3.svg)" alt="fincm3" style="max-width: 100%; margin: 0px 4px;"></td><td>balenaFin</td>
 </tr>
 <tr><td>
-<img height="24px" src="https://files.balena-cloud.com/images/intel-nuc/2.50.1%2Brev1.prod/logo.svg" alt="intel-nuc" style="max-width: 100%; margin: 0px 4px;"></td><td> Intel NUC</td>
+<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/intel-nuc.svg" alt="intel-nuc" style="max-width: 100%; margin: 0px 4px;"></td><td>Intel NUC</td>
 </tr>
 <tr><td>
-<img height="24px" src="https://files.balena-cloud.com/images/jetson-nano-2gb-devkit/2.67.3%2Brev3.prod/logo.svg" alt="intel-nuc" style="max-width: 100%; margin: 0px 4px;"></td><td> Nvidia Jetson Nano 2GB Devkit SD</td>
+<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/jetson-nano-2gb-devkit.svg" alt="jetson-nano-2gb-devkit" style="max-width: 100%; margin: 0px 4px;"></td><td>Nvidia Jetson Nano 2GB Devkit SD</td>
 </tr>
 <tr><td>
-<img height="24px" src="https://files.balena-cloud.com/images/jetson-nano/2.69.1%2Brev1.prod/logo.svg" alt="intel-nuc" style="max-width: 100%; margin: 0px 4px;"></td><td> Nvidia Jetson Nano SD-CARD</td>
+<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/jetson-nano.svg" alt="jetson-nano" style="max-width: 100%; margin: 0px 4px;"></td><td>Nvidia Jetson Nano SD-CARD</td>
 </tr>
 <tr><td>
-<img height="24px" src="https://files.balena-cloud.com/images/raspberrypi3/2.58.3%2Brev1.prod/logo.svg" alt="raspberrypi3" style="max-width: 100%; margin: 0px 4px;"></td><td>Raspberry Pi 3 Model B+</td>
+<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/raspberrypi3.svg" alt="raspberrypi3" style="max-width: 100%; margin: 0px 4px;"></td><td>Raspberry Pi 3 Model B+</td>
 </tr>
 <tr><td>
-<img height="24px" src="https://files.balena-cloud.com/images/raspberrypi4-64/2.65.0%2Brev1.prod/logo.svg" alt="raspberrypi4-64" style="max-width: 100%; margin: 0px 4px;"></td><td>Raspberry Pi 4 Model B</td>
+<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/raspberrypi4-64.svg" alt="raspberrypi4-64" style="max-width: 100%; margin: 0px 4px;"></td><td>Raspberry Pi 4 Model B</td>
 </tr>
 <tr><td>
-<img height="24px" src="https://files.balena-cloud.com/images/raspberrypi400-64/2.65.0%2Brev2.prod/logo.svg" alt="raspberrypi4-400" style="max-width: 100%; margin: 0px 4px;"></td><td>Raspberry Pi 400</td>
+<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/raspberrypi400-64.svg" alt="raspberrypi400-64" style="max-width: 100%; margin: 0px 4px;"></td><td>Raspberry Pi 400</td>
 </tr>
 </table>
+
+Please [let us know](https://github.com/ketilmo/balena-ads-b/discussions/new) if you are successfully running balena-ads-b on a hardware platform not listed here!
 
 # Credits
 
@@ -64,7 +66,7 @@ Thanks to [compujuckel](https://github.com/compujuckel/), [Glenn Stewart](https:
 
 Thanks to [garethhowell](https://github.com/garethhowell) for implementing the initial ADSB Exchange support and to [wiedehopf](https://github.com/wiedehopf/) for improving it.
 
-Thanks to [rmorillo24](https://github.com/rmorillo24/) for verifying balenaFin compatibility and to [adaptive](https://github.com/adaptive/) for confirming Raspberry Pi 400 compatibility.
+Thanks to [rmorillo24](https://github.com/rmorillo24/) for verifying balenaFin compatibility, to [adaptive](https://github.com/adaptive/) for confirming Raspberry Pi 400 compatibility, and to [eagleDiego](https://github.com/eagleDiego) for confirming Orange Pi Zero compability.
 
 Thanks to [schubydoo](https://github.com/schubydoo) for assistance with keeping the repository up to date.
 
