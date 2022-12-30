@@ -25,7 +25,7 @@ Contribute to the flight tracking community! Feed your local ADS-B data from an 
 # Supported devices
 <table>
 <tr><td>
-<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/fincm3.svg)" alt="fincm3" style="max-width: 100%; margin: 0px 4px;"></td><td>balenaFin</td>
+<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/fincm3.svg" alt="fincm3" style="max-width: 100%; margin: 0px 4px;"></td><td>balenaFin</td>
 </tr>
 <tr><td>
 <img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/intel-nuc.svg" alt="intel-nuc" style="max-width: 100%; margin: 0px 4px;"></td><td>Intel NUC</td>
