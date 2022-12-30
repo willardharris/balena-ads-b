@@ -37,6 +37,9 @@ Contribute to the flight tracking community! Feed your local ADS-B data from an 
 <img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/jetson-nano.svg" alt="jetson-nano" style="max-width: 100%; margin: 0px 4px;"></td><td>Nvidia Jetson Nano SD-CARD</td>
 </tr>
 <tr><td>
+<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/orange-pi-zero.svg" alt="orange-pi-zero" style="max-width: 100%; margin: 0px 4px;"></td><td>Orange Pi Zero</td>
+</tr>
+<tr><td>
 <img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/raspberrypi3.svg" alt="raspberrypi3" style="max-width: 100%; margin: 0px 4px;"></td><td>Raspberry Pi 3 Model B+</td>
 </tr>
 <tr><td>
