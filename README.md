@@ -110,6 +110,7 @@ Software packages downloaded, installed, and configured by the balena-ads-b scri
 - [Part 11 – Exploring flight traffic locally on your device](#part-11--exploring-flight-traffic-locally-on-your-device)
 - [Part 12 – Advanced configuration](#part-12--advanced-configuration)
   * [Disabling specific services](#disabling-specific-services)
+  * [Adaptive gain configuration](https://github.com/ketilmo/balena-ads-b/blob/master/README.md#adaptive-gain-configuration)
   * [Setting dump1090 antenna gain](#setting-dump1090-antenna-gain)
  - [Part 13 – Updating to the latest version](#part-13--updating-to-the-latest-version)
 
