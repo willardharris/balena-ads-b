@@ -30,7 +30,7 @@ WORKDIR /tmp
 RUN apt update && \
 	apt install -y $TEMP_INSTALL
 
-RUN git clone --depth 1 --branch $MLAT_TAG https://github.com/adsbxchange/mlat-client.git && \
+RUN git clone --depth 1 --branch $MLAT_TAG https://github.com/adsb-related-code/mlat-client && \
 	cd mlat-client && \
     python3 -m venv /usr/local/share/adsbexchange/venv/ && \	
     /usr/local/share/adsbexchange/venv/bin/python3 setup.py build && \	
@@ -38,7 +38,7 @@ RUN git clone --depth 1 --branch $MLAT_TAG https://github.com/adsbxchange/mlat-c
 
 WORKDIR /tmp
 
-RUN git clone --single-branch https://github.com/adsbxchange/readsb.git && \
+RUN git clone --single-branch https://github.com/adsb-related-code/readsb && \
 	cd readsb && \
 	git checkout $READSB_COMMIT && \
 	make -j3 AIRCRAFT_HASH_BITS=14
@@ -52,7 +52,7 @@ RUN git clone --depth 1 https://github.com/adsbxchange/adsbexchange-978 /usr/loc
 
 WORKDIR /tmp
 
-RUN git clone --single-branch --depth 1 --branch master https://github.com/adsbxchange/uat2esnt.git && \
+RUN git clone --single-branch --depth 1 --branch master https://github.com/adsb-related-code/uat2esnt && \
 	cd uat2esnt && \
 	make -j3 uat2esnt
 
