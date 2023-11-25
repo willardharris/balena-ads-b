@@ -79,7 +79,7 @@ Thanks to [schubydoo](https://github.com/schubydoo) for assistance with keeping 
 
 Thanks to [schubydoo](https://github.com/schubydoo), [JPGMC](https://github.com/JPGMC), and [alanb128](https://github.com/alanb128) for beta testing the UAT support.
 
-And thanks to [Aaron Shaw (shawaj)](https://github.com/shawaj) for implementing Wingbits support.
+And thanks to [Aaron Shaw (shawaj)](https://github.com/shawaj) for implementing Wingbits support, fixing bugs, and improving the code.
 
 You are all stars! 🤩
 
