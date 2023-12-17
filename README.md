@@ -52,6 +52,9 @@ Contribute to the flight tracking community! Feed your local ADS-B data from an 
 <tr><td>
 <img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/raspberrypi400-64.svg" alt="raspberrypi400-64" style="max-width: 100%; margin: 0px 4px;"></td><td>Raspberry Pi 400</td>
 </tr>
+<tr><td>
+<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/raspberrypi5.svg" alt="raspberrypi5" style="max-width: 100%; margin: 0px 4px;"></td><td>Raspberry Pi 5</td>
+</tr>
 </table>
 
 Please [let us know](https://github.com/ketilmo/balena-ads-b/discussions/new) if you are successfully running balena-ads-b on a hardware platform not listed here!
