@@ -78,7 +78,7 @@ Thanks to [garethhowell](https://github.com/garethhowell) for implementing the i
 
 Thanks to [rmorillo24](https://github.com/rmorillo24/) for verifying balenaFin compatibility, to [adaptive](https://github.com/adaptive/) for confirming Raspberry Pi 400 compatibility, and to [eagleDiego](https://github.com/eagleDiego) for confirming Orange Pi Zero compability.
 
-Thanks to [schubydoo](https://github.com/schubydoo) for assistance with keeping the repository up to date.
+Thanks to [schubydoo](https://github.com/schubydoo) and [Teko012](https://github.com/Teko012/) for assistance with keeping the repository up to date.
 
 Thanks to [schubydoo](https://github.com/schubydoo), [JPGMC](https://github.com/JPGMC), and [alanb128](https://github.com/alanb128) for beta testing the UAT support.
 
