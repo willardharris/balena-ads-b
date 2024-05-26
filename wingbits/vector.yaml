@@ -37,4 +37,4 @@ sinks:
     type: "vector"
     inputs:
       - "remapped"
-    address: "feed.wingbits.com:6000"s
+    address: "feed.wingbits.com:6000"
