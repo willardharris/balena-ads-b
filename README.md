@@ -60,11 +60,13 @@ Thanks to [garethhowell](https://github.com/garethhowell) for implementing the i
 
 Thanks to [rmorillo24](https://github.com/rmorillo24/) for verifying balenaFin compatibility, to [adaptive](https://github.com/adaptive/) for confirming Raspberry Pi 400 compatibility, and to [eagleDiego](https://github.com/eagleDiego) for confirming Orange Pi Zero compability.
 
-Thanks to [schubydoo](https://github.com/schubydoo) and [Teko012](https://github.com/Teko012/) for assistance with keeping the repository up to date.
+Thanks to [schubydoo](https://github.com/schubydoo) for assistance in keeping the repository up to date.
+
+Thanks to [Teko012](https://github.com/Teko012/) for modernising the repo, keeping it up to date, and suggesting several improvements.
 
 Thanks to [schubydoo](https://github.com/schubydoo), [JPGMC](https://github.com/JPGMC), and [alanb128](https://github.com/alanb128) for beta testing the UAT support.
 
-And thanks to [Aaron Shaw (shawaj)](https://github.com/shawaj) for implementing Wingbits support, fixing bugs, and improving the code.
+And thanks to [Aaron Shaw (shawaj)](https://github.com/shawaj) for implementing Wingbits and Mode-S Beast support, fixing bugs, and improving the code.
 
 You are all stars! 🤩
 
