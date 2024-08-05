@@ -8,7 +8,7 @@ if [[ ",$(echo -e "${DISABLED_SERVICES}" | tr -d '[:space:]')," = *",$BALENA_SER
         curl --header "Content-Type:application/json" "$BALENA_SUPERVISOR_ADDRESS/v2/applications/$BALENA_APP_ID/stop-service?apikey=$BALENA_SUPERVISOR_API_KEY" -d '{"serviceName": "'$BALENA_SERVICE_NAME'"}'
         sleep infinity
 fi
-# Verify that all the required varibles are set before starting up the application.
+# Verify that all the required variables are set before starting up the application.
 
 echo "Verifying settings..."
 echo " "
@@ -112,6 +112,16 @@ fi
   
 # Start lighttpd and put it in the background.
 /usr/sbin/lighttpd -D -f /etc/lighttpd/lighttpd.conf 2>&1 | stdbuf -o0 sed --unbuffered '/^$/d' | awk -W interactive '{print "[lighttpd]    "  $0}' &
- 
+
+# Check if device reboot on service exit has been enabled through the REBOOT_DEVICE_ON_SERVICE_EXIT environment variable.
+if [[ "$REBOOT_DEVICE_ON_SERVICE_EXIT" == "true" ]]; then
+        echo "Device reboot on service exit is enabled."
+fi
+
 # Wait for any services to exit.
 wait -n
+
+if [[ "$REBOOT_DEVICE_ON_SERVICE_EXIT" == "true" ]]; then
+        echo "Service exited, rebooting the device..."
+        curl -X POST --header "Content-Type:application/json" "$BALENA_SUPERVISOR_ADDRESS/v1/reboot?apikey=$BALENA_SUPERVISOR_API_KEY"
+fi
