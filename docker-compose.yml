@@ -4,7 +4,7 @@ volumes:
   radarbox:
 services:
   kiosk:
-    restart: always
+    restart: unless-stopped
     build: ./kiosk
     privileged: true
     ports:
@@ -13,7 +13,7 @@ services:
       - 'settings:/data'
   wifi-connect:
     build: ./wifi-connect
-    restart: always
+    restart: unless-stopped
     network_mode: host
     environment:
       - DBUS_SYSTEM_BUS_ADDRESS="unix:path=/host/run/dbus/system_bus_socket"
@@ -30,7 +30,7 @@ services:
   frontend-proxy:
     image: traefik
     build: ./traefik
-    restart: always
+    restart: unless-stopped
     ports:
       - "80:80"
     labels:
@@ -39,7 +39,7 @@ services:
   dump1090-fa:
     build: ./dump1090-fa
     image: dump1090-fa
-    restart: always
+    restart: unless-stopped
     privileged: true
     environment:
       - LAT=
@@ -87,7 +87,7 @@ services:
   dump978-fa:
     build: ./dump978-fa
     image: dump978-fa
-    restart: always
+    restart: unless-stopped
     environment:
       - LAT=
       - LON=
@@ -116,7 +116,7 @@ services:
       - dump1090-fa
     build: ./piaware
     image: piaware
-    restart: always
+    restart: unless-stopped
     environment:
       - FLIGHTAWARE_FEEDER_ID=
       - DUMP978_ENABLED=false
@@ -127,7 +127,7 @@ services:
       - dump1090-fa
     build: ./fr24feed
     image: fr24feed
-    restart: always
+    restart: unless-stopped
     ports:
       - "8754:8754"
     environment:
@@ -159,7 +159,7 @@ services:
       - dump1090-fa
     build: ./planefinder
     image: planefinder
-    restart: always
+    restart: unless-stopped
     ports:
       - "30053:30053"
     labels:
@@ -187,7 +187,7 @@ services:
       - dump1090-fa
     build: ./opensky-network
     image: opensky-network
-    restart: always
+    restart: unless-stopped
     environment:
       - OPENSKY_USERNAME=
       - OPENSKY_SERIAL=
@@ -198,7 +198,7 @@ services:
       - dump1090-fa
     build: ./radarbox
     image: radarbox
-    restart: always
+    restart: unless-stopped
     expose:
       - "32088"
     environment:
@@ -218,7 +218,7 @@ services:
     build:
       context: ./adsb-exchange
     image: adsb-exchange
-    restart: always
+    restart: unless-stopped
     environment:
       ADSB_EXCHANGE_SITENAME: ''
       ADSB_EXCHANGE_UUID: ''
@@ -236,7 +236,7 @@ services:
       - dump1090-fa
     build: ./wingbits
     image: wingbits
-    restart: always
+    restart: unless-stopped
     environment:
       - WINGBITS_DEVICE_ID=
       - LAT=
@@ -251,7 +251,7 @@ services:
 #      - dump1090-fa
 #    build: ./mlat-client
 #    image: mlat-client
-#    restart: always
+#    restart: unless-stopped
 #    environment:
 #      - LAT=
 #      - LON=
