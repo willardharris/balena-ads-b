@@ -98,6 +98,9 @@ if [[ "$DUMP1090_SLOW_CPU" != "" ]]; then
         echo "Setting Slow CPU mode to $DUMP1090_SLOW_CPU." && dump1090configuration="${dump1090configuration} --adaptive-duty-cycle $DUMP1090_SLOW_CPU"
 fi
 
+# Increase the allowed usbfs buffer size
+echo 0 > /sys/module/usbcore/parameters/usbfs_memory_mb
+
 # If using Mode-S Beast, launch beast-splitter in background
 if [ "$radio_device_lower" = "modesbeast" ]
 then
