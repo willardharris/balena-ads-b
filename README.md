@@ -43,7 +43,7 @@ This software defaults to using an RTL-SDR radio device. However, it is also com
 
 # Credits
 
-The balena-ads-b project was created by [Ketil Moland Olsen](https://github.com/ketilmo/). It is now maintained as a team effort by Ketil, [Aaron Shaw (shawl)](https://github.com/shawaj), and [Teko012](https://github.com/Teko012/). 
+The balena-ads-b project was created by [Ketil Moland Olsen](https://github.com/ketilmo/). It is now maintained as a team effort by Ketil, [Aaron Shaw (shawaj)](https://github.com/shawaj), and [Teko012](https://github.com/Teko012/). 
 
 The project was inspired by and has borrowed code from the following repos and forum threads:  
 
