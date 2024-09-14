@@ -39,13 +39,13 @@ Please [let us know](https://github.com/ketilmo/balena-ads-b/discussions/new) if
 
 # Supported radios
 
-The default setting of this software is to use a RTL-SDR type radio device. However it is also compatible with Mode-S Beast, bladeRF, HackRF, LimeSDR and SoapySDR. You can find more information on how to configure these device types in the [Using different radio device types](#using-different-radio-device-types) section below.
+This software defaults to using an RTL-SDR radio device. However, it is also compatible with Mode-S Beast, bladeRF, HackRF, LimeSDR, and SoapySDR. Below, you can find more information on configuring these device types in the [Using different radio device types](#using-different-radio-device-types) section.
 
 # Credits
 
-The balena-ads-b project was created and maintained by [Ketil Moland Olsen](https://github.com/ketilmo/).
+The balena-ads-b project was created by [Ketil Moland Olsen](https://github.com/ketilmo/). It is now maintained as a team effort by Ketil, [Aaron Shaw (shawl)](https://github.com/shawaj), and [Teko012](https://github.com/Teko012/). 
 
-It's inspired by and has borrowed code from the following repos and forum threads:  
+The project was inspired by and has borrowed code from the following repos and forum threads:  
 
  - https://github.com/compujuckel/adsb-docker
  - https://bitbucket.org/inodes/resin-docker-rtlsdr
