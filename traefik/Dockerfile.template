@@ -12,7 +12,8 @@ RUN apt update && \
 
 FROM base AS buildstep
 
-ARG TRAEFIK_VERSION=2.10.5
+# renovate: datasource=github-releases depName=traefik/traefik versioning=loose
+ARG TRAEFIK_VERSION=2.11.8
 ARG TEMP_INSTALL="wget"
 
 COPY traefik_installer.sh /tmp

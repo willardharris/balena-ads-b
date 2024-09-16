@@ -1,9 +1,9 @@
 
-![balena ADS-B Flight Tracker](https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/header.png)
+![balena ADS-B Flight Tracker](https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/header.svg)
 
 **ADS-B Flight Tracker running on balena with support for FlightAware, Flightradar24, Plane Finder, OpenSky Network, AirNav RadarBox, ADSB Exchange, Wingbits, adsb.fi, ADSB.lol, ADS-B One, airplanes.live, Planespotters.net, TheAirTraffic, AvDelphi, HP Radar, RadarPlane and Fly Italy ADSB.**
 
-Contribute to the flight tracking community! Feed your local ADS-B data from an [RTL-SDR](https://www.rtl-sdr.com/) USB dongle and a supported device (see below) running balenaOS to the tracking services [FlightAware](https://flightaware.com/), [Flightradar24](https://www.flightradar24.com/), [Plane Finder](https://planefinder.net/), [OpenSky Network](https://opensky-network.org/), [AirNav RadarBox](https://www.radarbox.com/), [ADSB Exchange](https://adsbexchange.com), [Wingbits](https://wingbits.com), [adsb.fi](https://adsb.fi/), [ADSB.lol](https://adsb.lol/), [ADS-B One](https://adsb.one) [airplanes.live](https://airplanes.live/), [Planespotters.net](https://www.planespotters.net/), [TheAirTraffic](https://theairtraffic.com/), [AvDelphi](https://www.avdelphi.com/), [HP Radar](https://hpradar.com/), [RadarPlane](https://radarplane.com/) and [Fly Italy ADSB](https://flyitalyadsb.com/). In return, you can receive complimentary premium accounts (or cryptocurrency tokens) worth several hundred dollars annually!
+Contribute to the flight tracking community! Feed your local ADS-B data from an [RTL-SDR](https://www.rtl-sdr.com/) USB dongle (or various other radio types) and a supported device (see below) running balenaOS to the tracking services [FlightAware](https://flightaware.com/), [Flightradar24](https://www.flightradar24.com/), [Plane Finder](https://planefinder.net/), [OpenSky Network](https://opensky-network.org/), [AirNav RadarBox](https://www.radarbox.com/), [ADSB Exchange](https://adsbexchange.com), [Wingbits](https://wingbits.com), [adsb.fi](https://adsb.fi/), [ADSB.lol](https://adsb.lol/), [ADS-B One](https://adsb.one) [airplanes.live](https://airplanes.live/), [Planespotters.net](https://www.planespotters.net/), [TheAirTraffic](https://theairtraffic.com/), [AvDelphi](https://www.avdelphi.com/), [HP Radar](https://hpradar.com/), [RadarPlane](https://radarplane.com/) and [Fly Italy ADSB](https://flyitalyadsb.com/). In return, you can receive complimentary premium accounts (or cryptocurrency tokens) worth several hundred dollars annually!
 
 # Stay in the loop
 
@@ -24,43 +24,28 @@ Contribute to the flight tracking community! Feed your local ADS-B data from an 
 🗞&nbsp; [Read past newsletters](https://buttondown.email/balena-ads-b/archive/)
 
 # Supported devices
-<table>
-<tr><td>
-<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/fincm3.svg" alt="fincm3" style="max-width: 100%; margin: 0px 4px;"></td><td>balenaFin</td>
-</tr>
-<tr><td>
-<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/intel-nuc.svg" alt="intel-nuc" style="max-width: 100%; margin: 0px 4px;"></td><td>Intel NUC</td>
-</tr>
-<tr><td>
-<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/jetson-nano-2gb-devkit.svg" alt="jetson-nano-2gb-devkit" style="max-width: 100%; margin: 0px 4px;"></td><td>Nvidia Jetson Nano 2GB Devkit SD</td>
-</tr>
-<tr><td>
-<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/jetson-nano.svg" alt="jetson-nano" style="max-width: 100%; margin: 0px 4px;"></td><td>Nvidia Jetson Nano SD-CARD</td>
-</tr>
-<tr><td>
-<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/orange-pi-zero.svg" alt="orange-pi-zero" style="max-width: 100%; margin: 0px 4px;"></td><td>Orange Pi Zero</td>
-</tr>
-<tr><td>
-<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/raspberrypi3.svg" alt="raspberrypi3" style="max-width: 100%; margin: 0px 4px;"></td><td>Raspberry Pi 3 Model B+</td>
-</tr>
-<tr><td>
-<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/raspberrypi3-64.svg" alt="raspberrypi3-64" style="max-width: 100%; margin: 0px 4px;"></td><td>Raspberry Pi 3 (using 64bit OS)</td>
-</tr>
-<tr><td>
-<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/raspberrypi4-64.svg" alt="raspberrypi4-64" style="max-width: 100%; margin: 0px 4px;"></td><td>Raspberry Pi 4 (using 64bit OS)</td>
-</tr>
-<tr><td>
-<img height="24px" src="https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/docs/images/arch/raspberrypi400-64.svg" alt="raspberrypi400-64" style="max-width: 100%; margin: 0px 4px;"></td><td>Raspberry Pi 400</td>
-</tr>
-</table>
+|                                                                                                                        | Device                          |
+|------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| <img alt="Intel NUC" height="24px" src="https://docs.balena.io/img/device/intel-nuc.svg"/>                             | Intel NUC                       |
+| <img alt="Nvidia Jetson Nano SD-CARD" height="24px" src="https://docs.balena.io/img/device/jetson-nano.svg"/>          | Nvidia Jetson Nano SD-CARD      |
+| <img alt="Orange Pi Zero" height="24px" src="https://docs.balena.io/img/device/orange-pi-zero.svg"/>                   | Orange Pi Zero                  |
+| <img alt="Raspberry Pi 3 Model B+" height="24px" src="https://docs.balena.io/img/device/raspberrypi3.svg"/>            | Raspberry Pi 3 Model B+         |
+| <img alt="Raspberry Pi 3 (using 64bit OS)" height="24px" src="https://docs.balena.io/img/device/raspberrypi3-64.svg"/> | Raspberry Pi 3 (using 64bit OS) |
+| <img alt="Raspberry Pi 4 (using 64bit OS)" height="24px" src="https://docs.balena.io/img/device/raspberrypi4-64.svg"/> | Raspberry Pi 4 (using 64bit OS) |
+| <img alt="Raspberry Pi 400" height="24px" src="https://docs.balena.io/img/device/raspberrypi400-64.svg"/>              | Raspberry Pi 400                |
+| <img alt="Raspberry Pi 5" height="24px" src="https://docs.balena.io/img/device/raspberrypi5.svg"/>                     | Raspberry Pi 5                  |
 
 Please [let us know](https://github.com/ketilmo/balena-ads-b/discussions/new) if you are successfully running balena-ads-b on a hardware platform not listed here!
 
+# Supported radios
+
+This software defaults to using an RTL-SDR radio device. However, it is also compatible with Mode-S Beast, bladeRF, HackRF, LimeSDR, and SoapySDR. Below, you can find more information on configuring these device types in the [Using different radio device types](#using-different-radio-device-types) section.
+
 # Credits
 
-The balena-ads-b project was created and maintained by [Ketil Moland Olsen](https://github.com/ketilmo/).
+The balena-ads-b project was created by [Ketil Moland Olsen](https://github.com/ketilmo/). It is now maintained as a team effort by Ketil, [Aaron Shaw (shawaj)](https://github.com/shawaj), and [Teko012](https://github.com/Teko012/). 
 
-It's inspired by and has borrowed code from the following repos and forum threads:  
+The project was inspired by and has borrowed code from the following repos and forum threads:  
 
  - https://github.com/compujuckel/adsb-docker
  - https://bitbucket.org/inodes/resin-docker-rtlsdr
@@ -75,11 +60,13 @@ Thanks to [garethhowell](https://github.com/garethhowell) for implementing the i
 
 Thanks to [rmorillo24](https://github.com/rmorillo24/) for verifying balenaFin compatibility, to [adaptive](https://github.com/adaptive/) for confirming Raspberry Pi 400 compatibility, and to [eagleDiego](https://github.com/eagleDiego) for confirming Orange Pi Zero compability.
 
-Thanks to [schubydoo](https://github.com/schubydoo) for assistance with keeping the repository up to date.
+Thanks to [schubydoo](https://github.com/schubydoo) for assistance in keeping the repository up to date.
+
+Thanks to [Teko012](https://github.com/Teko012/) for modernising the repo, keeping it up to date, and suggesting several improvements.
 
 Thanks to [schubydoo](https://github.com/schubydoo), [JPGMC](https://github.com/JPGMC), and [alanb128](https://github.com/alanb128) for beta testing the UAT support.
 
-And thanks to [Aaron Shaw (shawaj)](https://github.com/shawaj) for implementing Wingbits support, fixing bugs, and improving the code.
+And thanks to [Aaron Shaw (shawaj)](https://github.com/shawaj) for implementing Wingbits and Mode-S Beast support, fixing bugs, and improving the code.
 
 You are all stars! 🤩
 
@@ -155,7 +142,7 @@ or
  11. Now, you're going to enter the receiver's altitude in *meters* above sea level in a new variable named `ALT`. If you need to find the altitude, you can find it using [one of several online services](https://www.maps.ie/coordinates.html). Remember to add the approximate number of corresponding meters if your antenna is mounted above ground level.
  12. Almost there! Next, we will push this code to your device through the balena cloud. We'll do that using the [balena CLI](https://github.com/balena-io/balena-cli). Follow the [official instructions](https://github.com/balena-io/balena-cli/blob/master/INSTALL.md) to download and install the CLI for your platform of choice.
  13. Head into your terminal and log in to balena with the following command: `balena login`. Then follow the instructions on the screen.
- 14. Next, clone the balena-ads-b repository to your local computer: `git clone git@github.com:ketilmo/balena-ads-b.git`. If you want to make changes to the repo, you can also fork it.
+ 14. Next, clone the balena-ads-b repository to your local computer with your Git client of choice or the standard command line tool: `git clone git@github.com:ketilmo/balena-ads-b.git`. If you want to make changes to the repo, you can also fork it.
  15. Head into the folder of the newly cloned repo by typing `cd balena-ads-b`.
  16. Do you remember your fleet name from earlier? Good. Now, we are ready to push the applications to balena's servers by typing `balena push YOUR–FLEET–NAME–HERE`.
  17. Now, wait while the Docker containers build on balena's servers. If the process is successful, you will see a beautiful piece of ASCII art depicting a unicorn right in your terminal window:
@@ -260,13 +247,17 @@ If you have previously set up a Plane Finder receiver and want to port it to bal
 ## Alternative B: Setup a new Plane Finder receiver
 If you have not previously set up a Plane Finder receiver that you want to reuse, do the following steps:
 
- 1. Register a new [Plane Finder account](https://planefinder.net).
- 2. If you cloned this repo, `balena-ads-b`, in part 2 of this guide, locate it on your computer and find the folder `planefinder`. Alternatively, if you used the *Deploy with balena*-button, download the following archive and unzip it: [SharecodeGenerator.zip](https://raw.githubusercontent.com/ketilmo/balena-ads-b/master/planefinder/SharecodeGenerator.zip)
- 3. Locate the file `SharecodeGenerator.html` and open it in your web browser.
- 4. Fill in the form to generate a Plane Finder share code. Use the same email address you used when registering for the Plane Finder account. For *Receiver Lat*, use the value from the `LAT` variable in part 2. For *Receiver Lon*, use the value from the `LON` variable. Lastly, click the *Create new sharecode* button. A sharecode should appear in a few seconds. It should look similar to `6g34asr1gvvx7`. Copy it to your clipboard. Disregard the rest of the form – you don't have to fill this out.
- 5. Open Plane Finder's *[Your Receivers](https://planefinder.net/account/receivers)* page. Under the *Add a Receiver* heading, locate the *Share Code* input field. Paste the sharecode from the previous step, then click the *Add Receiver*-button.
- 6. Head back to the Balena dashboard and your device's page. Click on the *Device Variables*-button. Add a variable named `PLANEFINDER_SHARECODE` and paste the value of the Plane Finder key you just created, e.g. `7e3q8n45wq369`.
- 7. On your device's page in the Balena dashboard, restart the *planefinder* service under *Services* by clicking the "cycle" icon next to the service name.
+ 1. Register a new [Plane Finder account](https://planefinder.net) or log into your existing account.
+ 2. Inside the *Terminal* section, click *Select a target*, then *planefinder*, and finally *Start terminal session*.
+ 3. This will open a terminal which lets you interact directly with your Plane Finder container.
+ 4. Once the terminal prompt appears, enter `pfclient`, then press return.
+ 5. If everything goes according to plan, you will see some output log messages in the terminal section.
+ 6. Scroll to the top of the page and look for the *Local IP Address* of your device - it should look something like `192.168.2.35` - if there is more than one IP address, any of them should work. Click the button next to the IP address to copy it to the clipboard.
+ 7. Open a browser window, paste in the IP address and then press return. This should load the Plane Finder sharecode generator page.
+ 8. Fill in the form to generate a Plane Finder share code. Use the same email address you used when registering for the Plane Finder account. For *Receiver Lat*, use the value from the `LAT` variable in part 2. For *Receiver Lon*, use the value from the `LON` variable. Lastly, click the *Create new sharecode* button. A sharecode should appear in a few seconds. It should look similar to `6g34asr1gvvx7`. Copy it to your clipboard. Disregard the rest of the form – you don't have to fill this out.
+ 9. Open Plane Finder's *[Your Receivers](https://planefinder.net/account/receivers)* page. Under the *Add a Receiver* heading, locate the *Share Code* input field. Paste the sharecode from the previous step, then click the *Add Receiver*-button.
+ 10. Head back to the Balena dashboard and your device's page. Click on the *Device Variables*-button. Add a variable named `PLANEFINDER_SHARECODE` and paste the value of the Plane Finder key you just created, e.g. `7e3q8n45wq369`.
+ 11. On your device's page in the Balena dashboard, restart the *planefinder* service under *Services* by clicking the "cycle" icon next to the service name.
 
 # Part 6 – Configure OpenSky Network
 ## Alternative A: Port an existing OpenSky Network receiver
@@ -388,13 +379,14 @@ In the United States, aircraft can use either the ADS-B standard, which transmit
 9. Head to your device's *Summary* page. Wait for all containers to come up with the status *Running*. Inside the *Terminal* section, click *Select a target*, then *dump978-fa*, and finally *Start terminal session*.
 10. Once the terminal prompt appears, enter `/add-serial-978.sh`, then press return.
 11. Type `YES`, followed by return, to change your dongle's serial number. Verify that the process completes successfully.
-12. Shut down your device. When it's powered off, connect both RTL-SDR sticks.
-13. Click on the *Device Variables* button in the left-hand menu. Delete the `DISABLED_SERVICES` variable.
-14. Add a new variable named `UAT_ENABLED` and assign it the value `true`.
-15. Power on the device. You should now be feeding ADS-B and UAT data simultaneously to the services that support it (FlightAware, RadarBox and ADSB-Exchange).
+12. Click on the *Device Variables*-button in the left-hand menu. Add a new variable named `DUMP978_DEVICE` and set its value to `00000978`.
+13. Shut down your device. When it's powered off, connect both RTL-SDR sticks.
+14. Click on the *Device Variables* button in the left-hand menu. Delete the `DISABLED_SERVICES` variable.
+15. Add a new variable named `UAT_ENABLED` and assign it the value `true`.
+16. Power on the device. You should now be feeding ADS-B and UAT data simultaneously to the services that support it (FlightAware, RadarBox and ADSB-Exchange).
 
 # Part 11 – Add a digital display (Optional)
-balena also produces a project that can be easily configured to display a webpage in kiosk mode on a digital display called balenaDash. By dropping that project into this one, we can automatically display a feeder page directly from the Pi. Ensure you have cloned this repository recursively (`git clone --recursive {{repository URL}}`). We can then set a `LAUNCH_URL` device variable configured to connect to `http://{{YOURIP or YOURSERVICENAME}}:YOURSERVICEPORT` (where the service/port is one of the frontends above, like `http://planefinder:30053`) and that will automatically be displayed on the attached display. The balenaDash service can be configured locally by accessing the webserver on port 8081.
+balena also produces a project that can be easily configured to display a webpage in kiosk mode on a digital display called balenaDash. By dropping that project into this one, we can automatically display a feeder page directly from the Pi. We can then set a `LAUNCH_URL` device variable configured to connect to `http://{{YOURIP or YOURSERVICENAME}}:YOURSERVICEPORT` (where the service/port is one of the frontends above, like `http://planefinder:30053`) and that will automatically be displayed on the attached display. The balenaDash service can be configured locally by accessing the webserver on port 8081.
 
 # Part 12 – Exploring flight traffic locally on your device
 If the setup goes well, you should feed flight traffic data to several online services. You will receive access to the providers' premium services in return for your efforts. But in addition to this, you can explore the data straight from your device, raw and unedited. And that's part of the magic, right?
@@ -419,7 +411,22 @@ If you live in the US and have configuered UAT feeding, you can explore the data
 ## Disabling specific services
 You can disable any of the balena-ads-b services by creating a *Device Variable* named `DISABLED_SERVICES` with the services you want to disable as comma-separated values. For example, if you want to disable the dump1090fa service, you set the `DISABLED_SERVICES` variable to `dump1090fa`. If you want to disable the dump1090fa and piaware services, you set the `DISABLED_SERVICES` variable to `dump1090fa, piaware`.
 
-**Please note:** Due to how these services are integrated, it's not currently possible to disable the `wifi-connect` and `kiosk` services.
+## Using different radio device types
+
+With balena-ads-b you are able to use a variety of SDRs (software defined radios) and other devices such as the FPGA based Mode-S Beast. The default operating mode is to use an RTL-SDR over USB and no additional configuration is needed for this setup.
+
+If you are using a Mode-S Beast, bladeRF, HackRF, LimeSDR or SoapySDR then you will need to configure this for the device to work as intended.
+
+In order to configure the particular device type you are using, you need to create a *Device Variable* named `RADIO_DEVICE_TYPE`. The possible values are below:
+
+- rtlsdr (this is the default and you do not need to configure this variable if you are using an RTL-SDR)
+- modesbeast
+- bladerf
+- hackrf
+- limesdr
+- soapysdr
+
+For example if you have a Mode-S Beast, you set the `RADIO_DEVICE_TYPE` variable to `modesbeast`. Remember to save the device variable settings after you have updated them. Your device should restart automatically once you configure this and the radio should now work.
 
 ## Adaptive gain configuration
 The dump1090-fa service can be configured to adapt the tuner gain to changing conditions automatically. You can [read more about how this works](https://github.com/flightaware/dump1090/blob/master/README.adaptive-gain.md#default-settings) at FlightAware's website. 
@@ -449,11 +456,16 @@ You can reduce the duty cycle further by creating a *Device Variable* named `DUM
 ## Setting dump1090 antenna gain
 By default, dump1090 will run with adaptive gain in dynamic range mode. You can override this by setting a *Device Variable* named `DUMP1090_GAIN` with a value of your liking.  You can read more about manual gain optimization at the [adsb-wiki](https://github.com/wiedehopf/adsb-wiki/wiki/Optimizing-gain).
 
+## Device reboot on service exit
+dump978 and dump1090 can restart the device if it hits an error. You can enable this feature by setting a *Device Variable* named `REBOOT_DEVICE_ON_SERVICE_EXIT` with the value of `true`.
+
 # Part 14 – Updating to the latest version
-Updating to the latest version is trivial. If you installed balena-ads-b using the blue Deploy with balena-button, you can click it again and overwrite your current application. All settings will be preserved. For convenience, the button is right here:
+Updating to the latest version is trivial. If you installed balena-ads-b using the blue Deploy with balena-button, you can click it again and overwrite your current application. Choose the "Deploy to existing fleet" option, then select the fleet you want to update. All settings will be preserved. For convenience, the button is right here:
 
 [![Deploy with button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/ketilmo/balena-ads-b&defaultDeviceType=raspberrypi4-64)
 
 If you used the manual `balena push` method, pull the changes from the master branch and push the update to your application with the balena CLI. For complete instructions, look at [Part 2 – Setup balena and configure the device](#part-2--setup-balena-and-configure-the-device).
 
 Enjoy!
+
+![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fketilmo%2Fbalena-ads-b&countColor=%23263759)
