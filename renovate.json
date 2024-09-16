@@ -24,15 +24,6 @@
     {
       "customType": "regex",
       "fileMatch": ["(^|/)Dockerfile\\.[^/]*$"],
-      "matchStrings": ["READSB_COMMIT=(?<currentDigest>.*?)\\n"],
-      "currentValueTemplate": "master",
-      "depNameTemplate": "github.com/adsb-related-code/readsb",
-      "packageNameTemplate": "https://github.com/adsb-related-code/readsb",
-      "datasourceTemplate": "git-refs"
-    },
-    {
-      "customType": "regex",
-      "fileMatch": ["(^|/)Dockerfile\\.[^/]*$"],
       "matchStrings": ["WINGBITS_COMMIT_ID=(?<currentDigest>.*?)\\n"],
       "currentValueTemplate": "master",
       "depNameTemplate": "gitlab.com/wingbits/config",
