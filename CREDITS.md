@@ -891,7 +891,7 @@ Not specified.
 
 ## readsb
 ### URL
-https://github.com/adsbxchange/readsb/
+https://github.com/wiedehopf/readsb/
 
 ### License
 This version of readsb is licensed under the GPL, v3 or any later version.
