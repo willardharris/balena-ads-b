@@ -252,7 +252,7 @@ if [ "$missing_variables" = "true" ]
 then
         echo "Required settings missing, aborting..."
         echo " "
-        sleep infinity
+        balena-idle
 fi
 
 if [ "$adsb" = "false" ] && [ "$mlat" = "false" ] && [ "$adsb_exchange" = "false" ]
