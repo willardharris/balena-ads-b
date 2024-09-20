@@ -459,6 +459,13 @@ By default, dump1090 will run with adaptive gain in dynamic range mode. You can 
 ## Device reboot on service exit
 dump978 and dump1090 can restart the device if it hits an error. You can enable this feature by setting a *Device Variable* named `REBOOT_DEVICE_ON_SERVICE_EXIT` with the value of `true`.
 
+## Automatic balenaOS host updates
+
+Automatically keep your balenaOS host release up-to-date. To enable this service, create a *Device Variables* named `ENABLED_SERVICES` with the value of `autohupr`.
+
+- `HUP_CHECK_INTERVAL`: Interval between checking for available updates. Default is 1d.
+- `HUP_TARGET_VERSION`: The OS version you want balenaHUP to automatically update your device to. This is a required variable to be specified, otherwise, an update won't be performed by default. Set the variable to 'latest'/'recommended' for your device to always update to the latest OS version or set it to a specific version (e.g '2.107.10').
+
 # Part 14 – Updating to the latest version
 Updating to the latest version is trivial. If you installed balena-ads-b using the blue Deploy with balena-button, you can click it again and overwrite your current application. Choose the "Deploy to existing fleet" option, then select the fleet you want to update. All settings will be preserved. For convenience, the button is right here:
 
