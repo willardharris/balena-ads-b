@@ -50,7 +50,7 @@ echo " "
 # Variables are verified – continue with startup procedure.
   
 # Start dump978-fa and put it in the background.
-/usr/bin/dump978-fa --sdr driver="$DUMP978_DRIVER" --raw-port 0.0.0.0:30978 --json-port 0.0.0.0:30979 --format CS8 --sdr-auto-gain &
+/usr/bin/dump978-fa --sdr driver="$DUMP978_DRIVER" --raw-port 0.0.0.0:30978 --json-port 0.0.0.0:30979 --format CS8 --sdr-gain DUMP978_GAIN &
 
 # Start skyaware978 and put it in the background.
 /usr/bin/skyaware978 --connect localhost:30978 --reconnect-interval 30 --lat "$LAT" --lon "$LON" --json-dir /run/skyaware978 &
